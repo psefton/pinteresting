@@ -1,9 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 $body-bg:                     #3498db;
 $navbar-inverse-bg:           #2980b9;
+$font-family-sans-serif:      'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-inverse-link-color:   white;
-$brand-primary:         #e74c3c;
+$brand-primary:               #e74c3c;
 $jumbotron-bg:                #bdc3c7;
 
-
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+.center {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
